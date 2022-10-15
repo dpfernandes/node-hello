@@ -4,9 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js",
+        "build": "webpack --config prod.config.js"
     },
     "keywords": [],
     "author": "Daniel Fernandes",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "devDependencies": {
+        "webpack-cli": "^4.10.0"
+    }
+}
